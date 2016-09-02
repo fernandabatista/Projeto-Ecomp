@@ -5,9 +5,17 @@
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 	font: "Lucida Console", Monaco, monospace
+	min-height : 60px;
+	margin-bottom: 0px;
 }
 
 .itensmenu li:hover{
 	color: white;
 	background-color: red;
+}
+
+.coluna1 {
+	background-color: #E7E7E7;
+	height: 200px;
+	padding-top: 60px;
 }
