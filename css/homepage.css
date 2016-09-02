@@ -14,8 +14,22 @@
 	background-color: red;
 }
 
+.text1 {
+	font-color: black;
+	position: absolute;
+	left : 250px;
+	top: 200px;
+}
+
 .coluna1 {
 	background-color: #E7E7E7;
 	height: 200px;
 	padding-top: 60px;
 }
+
+.coluna2 {
+
+	height: 300px;
+	padding-top: 100px;
+}
+
