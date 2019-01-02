@@ -1,115 +1,428 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Projeto Ecomp</title>
-		<link rel="stylesheet" type="text/css" href="./../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="./../css/homepage.css">
-	</head>
-	<body>
-		<nav class="navbar navbar-inverse Menu">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Site Name</a>
-				</div>
-				<ul class="nav navbar-nav navbar-right itensmenu">
-					<li ><a href="#">HOME</a></li>
-					<li ><a href="#">CONTACT</a>
-					<li ><a href="#">SERVICES</a></li>
-					<li ><a href="#">PORTFOLIO</a>
-					<li ><a href="#">CONTACT</a></li>
-				</ul>
-			</div>
-		</nav>
-		<div>
-		<img src="./../img/banner/Layer1.png" width="100%" height="100%">
-		<div class="text1">
-			<img src="./../img/banner/cir2.png">
-			<img src="./../img/banner/cir1.png">
-			<h3>CLIVUAM TINDICUNT</h3>
-			<img src="./../img/banner/line.png">
-		</div>
-		<div class="container-fluid coluna1">
-			<div class="row ">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-10">
-					<div>
-						<div class="col-sm-1">
-							<p style="text-align:right"><img src="./../img/row1/1.png" class="img-circle"  width="70" height="70"></p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<h4 style="text-align:left">Texto 0</h4>
-						<p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-					</div>
-					<div class="col-sm-1">
-						<p style="text-align:right"><img src="./../img/row1/2.png" class="img-circle"  width="70" height="70"></p>
-					</div>
-					<div class="col-sm-3">
-						<h4 style="text-align:left">Texto 1</h4>
-						<p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-					</div>
-					<div class="col-sm-1">
-						<p style="text-align:right"><img src="./../img/row1/3.png" class="img-circle"  width="70" height="70"></p>
-					</div>
-					<div class="col-sm-3">
-						<h4 style="text-align:left">Texto 2</h4>
-						<p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<p>
-		</p>
-		<div class="container-fluid coluna2">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-7">
-					<div class="row">
-						<div class="col-sm-12">
-							<h5><b>franquia de mídia que pertence a The Pokémon Company,[3] tendo sido criada por Satoshi Tajiri em 1995.[4] Ela é centrada em criaturas ficcionais chamadas "Pokémon"</b></h5>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="./../img/row2/line.png">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>Civamus vestibulum nec ant </p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="./../img/row2/line.png">
-						</div>
-					</div>
-					<div class="row 1">
-						<div class="col-sm-5">
-							<p>Dilma Vana Rousseff (Belo Horizonte, 14 de dezembro de 1947) é uma economista e política brasileira, filiada no Partido dos Trabalhadores (PT) e presidente suspensa do Brasil.[2][3][4] Em 12 de maio de 2016, foi afastada de seu cargo por até 180 dias devido à instauração de um processo de impeachment[5] que fora movido contra ela.[6]</p>
-						</div>
-						<div class="col-sm-1"></div>
-						<div class="col-sm-5">
-							<p>Durante o governo do ex-presidente Luiz Inácio Lula da Silva, assumiu a chefia do Ministério de Minas e Energia e posteriormente da Casa Civil. Em 2010, foi escolhida pelo PT para concorrer à eleição presidencial,[7][8] cujo resultado de segundo turno</p>
-						</div>
-						<div class="col-sm-1"></div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<img src="./../img/row2/btn.png">
-						</div>
-						<div class="col-sm-6">
-							<img src="./../img/row2/btn.png">
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<center><img src="./../img/row2/Layer2.png" class="img-circle" alt="Cinque Terre" width="250" height="250"></center>
-				</div>
-				<div class="col-sm-1"></div>
-			</div>
-		</div>
-	</body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Projeto Ecomp
+        </title>
+        <link rel="stylesheet" type="text/css" href="./../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./../css/homepage.css">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-inverse Menu">
+            <div class="container" id="MenuPrincipal">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Site Name</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right itensmenu">
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <img src="./../img/banner/Layer1.png" width="100%" height="100%">
+            <div class="text1">
+                <div id="imgtextClivuam">
+                    <img src="./../img/banner/cir2.png">
+                    <img src="./../img/banner/cir1.png">
+                </div>
+                <h4 id="textClivuam">
+                    CLIVUAM TINDICUNT
+                </h4>
+                <img id="textClivuam" src="./../img/banner/line.png">
+                <h4>
+                    NUNC DIGNISSIM RISUS ID METUS
+                </h4>
+                <p id="textWallpapper">
+                    http://wallpapperwide.com/
+                </p>
+            </div>
+            <div class="container-fluid coluna1">
+                <div class="row ">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm-10">
+                        <div>
+                            <div class="col-sm-1">
+                                    <img src="./../img/row1/1.png" class="img-circle">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 id="TitleColuna4">
+                                ALIQUAM TINCIDUNT
+                            </h4>
+                            <p id="TextAliquamTincidunt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            </p>
+                        </div>
+                        <div class="col-sm-1">
+                                <img src="./../img/row1/2.png" class="img-circle" height="100%", width="100%">
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 id="TitleColuna4">
+                                CRAS ORNARE TRISTIQU
+                            </h4>
+                            <p id="TextAliquamTincidunt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            </p>
+                        </div>
+                        <div class="col-sm-1">
+                                <img src="./../img/row1/3.png" class="img-circle">
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 id="TitleColuna4">
+                                VIVAMUS VESTIBULUM
+                            </h4>
+                            <p id="TextAliquamTincidunt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid coluna2">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5 id="Donecnec">
+                                Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit
+                                amet orci. Aenean dignissim pellentesque felis.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="./../img/row2/line.png" height="100%" width="100%" align="left">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p id="Civamus">
+                                Civamus vestibulum nec ant
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="./../img/row2/line.png" height="100%" width="100%" align="left">
+                        </div>
+                    </div>
+                    <div class="row 1">
+                        <div class="col-sm-5">
+                            <p id="TextAliquamTincidunt">
+                                Eros pede semper est, vitae luctus metus libero eu augue. Morbi purus
+                                libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
+                                Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum
+                                volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar
+                                nunc sapien ornare nisl.
+                            </p>
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                        <div class="col-sm-5">
+                            <p id="TextAliquamTincidunt">
+                                Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
+                                metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo
+                                quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.
+                            </p>
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#"><img src="./../img/row2/btn.png"></a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#"><img src="./../img/row2/btn.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <center>
+                        <img src="./../img/row2/Layer2.png" class="img-circle" alt="Cinque Terre"
+                        width="100%" height="100%">
+                    </center>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class=" col-sm-10 coluna3">
+                    <div class="col-sm-1" id="imgPerson">
+                        <img src="./../img/row3/person.png" class="img-circle">
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 id="TextColuna3">
+                            DONEC NEC JUSTO EGET
+                        </h3>
+                        <p id="TextColuna3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit sit amet, consectetur
+                            adipisicing elit.....
+                        </p>
+                    </div>
+                    <div class="col-sm-7 form">
+                        <h3 id="TextColuna3">
+                            MORBI VITAE LUCTUS
+                        </h3>
+                        <form class="form-inline ">
+                            <div class="form-group">
+                                <input type="email" id="Coluna2Caixa" class="form-control" id="email" placeholder="Enter email" height="100%" width="100%">
+                            </div>
+                            <input type="button" class="botao1">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid coluna4">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <p id="TitleColuna4">
+                            Aliquam Tincidunt
+                        </p>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row Coluna4row">
+                            <div class="col-sm-3">
+                                <img src="./../img/row4/Layer3.png">
+                            </div>
+                            <div class="col-sm-9">
+                                <p id="TextAliquamTincidunt">
+                                    Todos as descrições das pessoas são sobre a humanidade
+                                </p>
+                                <div class="row col-sm-12">
+                                    <a id="More" href="#">More =></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row Coluna4row">
+                            <div class="col-sm-3">
+                                <img src="./../img/row4/Layer4.png">
+                            </div>
+                            <div class="col-sm-9">
+                                <p id="TextAliquamTincidunt">
+                                    Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar
+                                </p>
+                                <div class="row col-sm-12">
+                                    <a id="More" href="#">More =></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row Coluna4row">
+                            <div class="col-sm-3">
+                                <img src="./../img/row4/Layer5.png">
+                            </div>
+                            <div class="col-sm-9">
+                                <p id="TextAliquamTincidunt">
+                                    Fica área que eu acho, que vai exigir muita atenção nossa, e aí e
+                                </p>
+                                <div class="row col-sm-12">
+                                    <a id="More" href="#">More =></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <p id="TitleColuna4">
+                                        NUNC DIGNISSIM RISU
+                                    </p>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id ="CaixaContato">
+                                        <div class="col-sm-4">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <form id="CaixaContatoForm">
+                                                        <div class="form-group">
+                                                            <p id="TextAliquamTincidunt">
+                                                                Sed egestas, ante et vulputate volupat, eros pede semper est, vitae luctus metus liber. 
+                                                            </p>
+                                                            <input type="email" id="CampoName" class="form-control" id="email"
+                                                            placeholder="name...">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="password" id="CampoEmail" class="form-control"
+                                                            id="pwd" placeholder="email...">
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        </div>
+                                                        <input type="password" id="CampoYourQuery" class="form-control"
+                                                        id="pwd" placeholder="your query...">
+                                                        <div class="checkbox">
+                                                            <input type="button" class="botao2">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="TitleColuna4">
+                            Aliquam Tincidunt
+                        </p>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="./../img/row4/home.png">
+                            </div>
+                            <div class="col-sm-10">
+                                <h6 id="Adress">
+                                    <b>
+                                        Adress
+                                    </b>
+                                </h6>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        some block, steet number, city name, country
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="./../img/row4/phon.png">
+                            </div>
+                            <div class="col-sm-10">
+                                <h6 id="Phone">
+                                    <b>
+                                        Phone
+                                    </b>
+                                </h6>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        (000) 777 777 777
+                                    </p>
+                                </div>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        (000) 888 888 888
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="./../img/row4/mail.png">
+                            </div>
+                            <div class="col-sm-10">
+                                <h6 id="Emailus">
+                                    <b>
+                                        Email us
+                                    </b>
+                                </h6>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        info@sitename.com
+                                    </p>
+                                </div>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        sales@sitename.com
+                                    </p>
+                                </div>
+                                <div class="row col-sm-12">
+                                    <p id="TextAliquamTincidunt">
+                                        company@sitename.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <img id="LinhaColuna4" src="./../img/row4/line.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid final">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        <h5 id="HomeAbout">
+                            Home &nbsp / &nbsp About &nbsp / &nbsp Services &nbsp / &nbsp Portfolio
+                            &nbsp / &nbsp Contact
+                        </h5>
+                        <p id="Designedtext">
+                            Designed by: www.alltemplateneeds.com/
+                        </p>
+                        <p id="ImagesFrom">
+                            Images from wwww.wallpaperswide.com/ Copyright(c) website name.
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="https://www.facebook.com"><img src="./../img/footer/1.png"></a>
+                        <a href="https://twitter.com/"><img src="./../img/footer/2.png"></a>
+                        <a href="https://www.linkedin.com/"><img src="./../img/footer/3.png"></a>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </footer>
+    </body>
+
 </html>

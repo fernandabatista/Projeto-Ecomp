@@ -1,5 +1,36 @@
-.Menu {
-	background-color: black;
+@media (min-width: 500px) {
+  html {
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1000px) {
+  html {
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 2em;
+  }
+}
+
+@font-face {
+	font-family: BebasNeue;
+	src: url(./../font/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url(./../font/Lato-Regular.otf);
+}
+
+.Menu { 
+	background-color: #202628;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-top-left-radius: 0px;
@@ -7,6 +38,11 @@
 	font: "Lucida Console", Monaco, monospace
 	min-height : 60px;
 	margin-bottom: 0px;
+	padding-left: 100px;
+}
+
+#MenuPrincipal {
+	padding-right: 100px;
 }
 
 .itensmenu li:hover{
@@ -15,10 +51,26 @@
 }
 
 .text1 {
-	font-color: black;
+	color: white;
 	position: absolute;
-	left : 250px;
-	top: 200px;
+	left : 160px;
+	top: 250px;
+	font-family: BebasNeue;
+}
+
+#imgtextClivuam {
+	display: block;
+}
+
+#textClivuam {
+	display: inline-block;
+}
+
+#textWallpapper {
+	color: #E84C3D;
+	font-weight: bold;
+	display: block;
+
 }
 
 .coluna1 {
@@ -27,9 +79,163 @@
 	padding-top: 60px;
 }
 
-.coluna2 {
-
-	height: 300px;
-	padding-top: 100px;
+.coluna1 img {
+	height: 100%;
+	width: 100%;
 }
 
+.coluna h4 {
+	text-align: left;
+}
+
+.coluna2 {
+	height: 450px;
+	padding-top: 60px;
+}
+
+#Coluna2Caixa {
+	border-radius:15px; 
+	width:460px;
+}
+
+
+#Donecnec {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	overflow: hidden;
+
+}
+
+#Civamus {
+	color: #E84C3D;
+}
+.coluna3 {
+	height: 200px;
+	padding-top: 50px;
+	background-color: #E84C3D;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+
+#imgPerson {
+	padding-top: 25px;
+}
+
+#TextColuna3 {
+	color: white;
+}
+
+.botao1{
+background-image:url("./../img/row3/subsc.png");
+background-color: #E84C3D;
+width: 19%;
+height: 40px;
+border-radius: 30px;
+padding-bottom: 15px;
+border-style: none;
+}
+.coluna4{
+	height: 450px;
+	padding-top: 50px;
+}
+
+.botao2 {
+background-image:url("./../img/row4/send.png");
+width: 33%;
+height: 40px;
+border-radius: 25px;
+border-style: none;
+}
+
+#TitleColuna4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+	overflow: hidden; 
+}
+
+.Coluna4row {
+	margin-bottom: 10px;
+}
+
+#TextAliquamTincidunt {
+	font-family: Lato-Regular;
+	color: grey;
+}
+
+#LinhaColuna4 {
+ 	height: 100%; 
+ 	width: 110%;
+}
+
+#More {
+	color: #E84C3D;
+}
+
+#CaixaContato {
+	 background-color:#e7e7e7;
+	 border-radius:5px;
+	 padding:0px;
+}
+
+#CaixaContatoForm {
+	width:360%; 
+	padding:10px;
+}
+#CampoName {
+	border-radius:20px;
+}
+
+
+#CampoEmail {
+	border-radius:20px;
+}
+
+#CampoYourQuery {
+	height:80px; 
+	border-radius:20px;
+}
+
+#Adress {
+	color: #E84C3D;	
+	font-weight: bold;
+	margin: 1px;
+}
+
+#Phone {
+	color: #E84C3D;
+	font-weight: bold;
+	margin: 1px;
+}
+
+
+#Emailus {
+	color: #E84C3D;
+	font-weight: bold;
+	margin: 1px;
+}
+
+
+.final {
+	height: 150px;
+	padding-top: 60px; 
+	background-color: #202628;
+}
+
+#HomeAbout{
+	color: white;
+
+}
+#Designedtext {
+	display: inline;
+	color:#E84C3D;
+}
+
+#ImagesFrom {
+	display: inline;
+	color: white	;
+}
